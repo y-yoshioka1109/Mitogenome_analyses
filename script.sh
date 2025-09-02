@@ -1,4 +1,5 @@
 #Clinkerを使ったシンテニー解析
+https://github.com/gamcil/clinker
 
 #genbankファイルの作成
 for i in `ls|grep .gff | awk -F"\.gff" '{print$1}'`;do perl gff2gbk.pl $i.gff > $i.gbk ;done
